@@ -1,25 +1,13 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
-# abort on errors
-set -e
+# # abort on errors
+# set -e
 
-# build
-npm run build
+# # build
+# npm run build
 
-# navigate into the build output directory
-cd dist
-
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-
-git init
-git add -A
-git commit -m 'deploy'
-
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:rodsan05/gamedev-portfolio.git main:gh-pages
-
-cd -
+git branch --delete --force gh-pages
+git checkout --orphan gh-pages
+git add -f dist
+git commit -m "Rebuild GitHub pages"
+git filter-branch -f --prune-empty --subdirectory-filter dist && git push -f origin gh-pages && git checkout -
