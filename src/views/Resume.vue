@@ -26,7 +26,7 @@
         <div class="full-content">
             <h2>Work experience</h2>
 
-            <h3>Unity Developer - Role Productions</h3>
+            <h3>Unity Developer - Artax Games</h3>
             <h4>October 2024 - Present</h4>
 
             <div style="margin-top: 20px;">I develop various gameplay functionalities in C# for company projects. Also including:
