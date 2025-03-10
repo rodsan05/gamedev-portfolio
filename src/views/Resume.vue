@@ -27,15 +27,26 @@
             <h2>Work experience</h2>
 
             <h3>Unity Developer - Role Productions</h3>
+            <h4>October 2024 - Present</h4>
+
+            <div style="margin-top: 20px;">I develop various gameplay functionalities in C# for company projects. Also including:
+                <ul>
+                    <li>Integrate SFX into the project and facilitate communication between the audio team using FMOD and the Unity programming team.</li>
+                    <li>Integrate various assets such as animations, UI, and VFX.</li>
+                    <li>Implemented a real-time gameplay cinematic system with configurable camera transitions.</li>
+                </ul>    
+            </div>
+
+            <h3>Unity Developer - Role Productions</h3>
             <h4>May 2023 - August 2023</h4>
 
-            <div>I developed and collaborated on various Augmented Reality and Virtual Reality projects for the company.
+            <div style="margin-top: 20px;">I developed and collaborated on various Augmented Reality and Virtual Reality projects for the company.
                 Highlights include:</div>
 
             <div style="margin-top: 20px;">A Virtual Reality kayaking experience.
                 <ul>
                     <li>Refactored existing code developed by a third party, achieving a well-organized class structure.
-                        I applied software architecture principles and design patterns to do so./li>
+                        I applied software architecture principles and design patterns to do so.</li>
                     <li>Conducted QA testing with the project's funding entity, adapting the experience and improving
                         user experience.</li>
                     <li>Optimized the performance of the experience for Meta Quest 2, increasing the frame rate to 60
