@@ -32,8 +32,9 @@
             <div style="margin-top: 20px;">I develop various gameplay functionalities in C# for company projects. Also including:
                 <ul>
                     <li>Integrate SFX into the project and facilitate communication between the audio team using FMOD and the Unity programming team.</li>
-                    <li>Integrate various assets such as animations, UI, and VFX.</li>
-                    <li>Implemented a real-time gameplay cinematic system with configurable camera transitions.</li>
+                    <li>Implement state machines for game states and behavior trees for NPC AI.</li>
+                    <li>Ported Unity projects to consoles including Xbox Series, PS5, and Nintendo Switch.</li>
+                    <li>Implemented a real-time cutscene system that allows the design team to configure gameplaycinematics.</li>
                 </ul>    
             </div>
 
@@ -97,16 +98,22 @@
             <h3>Bachelor's Degree in Video Game Development - 2024</h3>
             <h4>Complutense University of Madrid</h4>
 
+            <h2>References</h2>
+
+            <h3>Guillermo Jiménez Díaz</h3>
+            <h4>PhD Contracted Professor Complutense University of Madrid</h4>
+            <a href= "mailto:gjimenez@ucm.es">gjimenez@ucm.es</a>
+
             <h2>Languages</h2>
 
             <h3>Spanish</h3>
             <div>Native</div>
 
             <h3>English</h3>
-            <div>B2 level, currently preparing C1</div>
+            <div>B2 level, currently preparing C1 exam</div>
 
             <h3>Japanese</h3>
-            <div>A1 level</div>
+            <div>Around JLPT N4 level, currently preparing N3 exam</div>
         </div>
     </div>
 </template>
