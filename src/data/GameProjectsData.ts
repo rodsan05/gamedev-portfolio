@@ -168,4 +168,28 @@ export default [
             <img class="pc-screenshot" src="img/projects/VerdantSorrow/verdantSorrowScreenshot4.png" alt="Verdant Sorrow Screenshot" />
         </div>
         `, "#5e2782"),
+        new ProjectData("project-7", "Euclidian Melody Generator", "img/projects/project-7-icon.png", `
+    <div class="paragraph">
+        A tool for composing melodies using <a href="https://www.patchwerks.com/blogs/patchnotes/what-is-euclidean-sequencing" target="_blank">Euclidian Sequencers</a>.
+        <br/></br>The app is developed completely in Python and allows to create and export melodies to MIDI. 
+        It uses Euclidian Sequencers and various parameters to select the rythm, notes and octaves.
+        For more info check <a href="https://github.com/rodsan05/EuclidianMelodyGenerator" target="_blank">the repository's readme</a></a>
+    </div>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/YUCduEo2-uo?si=SOsayUXUaNzwlDoi" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+    <div class="notice">
+        Source code is available on <a href="https://github.com/rodsan05/EuclidianMelodyGenerator" target="_blank">GitHub</a>.
+    </div>
+    </div>
+
+    <!-- <div class="paragraph center">
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Vanguard Music Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Vanguard Music Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Vanguard Music Screenshot" />
+    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Vanguard Music Screenshot" />
+    </div> -->
+    `, "#5a78af"),
 ];
