@@ -8,7 +8,7 @@
         I'm well-versed in programming languages such as C++, C#, Python, and Java.
       </div>
 
-      <div style="margin-top: 20px;">I have experience working on <router-link to="/game-projects">projects</router-link> ranging from video games to generative AI and various tools</div>
+      <div style="margin-top: 20px;">I have experience working on <router-link to="/">projects</router-link> ranging from video games to generative AI and various tools</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a programmer. Feel free to reach out to me at <a href="mailto:rodsan2602@gmail.com">rodsan2602@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
