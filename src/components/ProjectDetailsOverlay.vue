@@ -17,6 +17,25 @@
   </transition>
 </template>
 
+<script lang="ts">
+import Vue from "vue";
+
+export default Vue.extend({
+  name: "ProjectDetailsOverlay",
+  props: {
+    visible: Boolean,
+    color: String,
+    title: String,
+    htmlContent: String,
+  },
+  methods: {
+    getImage: function(url: string) {
+      console.log("fetching image " + url);
+    }
+  }
+});
+</script>
+
 <style scoped>
 .overlay {
   background-color: rgba(0,0,0,0.5);
